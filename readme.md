@@ -2,7 +2,7 @@
 # ROSiK  
 **Robot Operating System — interactive Kit**  
 
-![Робот ROSik](images/photo.png)
+![Робот ROSik](https://github.com/stepanburmistrov/ROSik/blob/main/images/photo.png)
 
 Мини-робот на **ESP32 Wroom-32 + ROS 2**, который:
 * транслирует одометрию и лидар по Wi-Fi через WebSocket-мост;
