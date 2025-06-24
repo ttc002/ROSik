@@ -97,12 +97,9 @@
 ### Утилита позволив вам подобрать коэффициенты PID - регулятора и приверить его работу
 ![Схема робота](/pythonGUI/gui.png)
 
-* Мзмените IP адрес
+* Измените IP адрес
 * Проверьте работу обометрии и управления роботом
 * Подберите коэффициенты и измените их в прошивке робота
-
-### Шаги прошивки
-
 
 ---
 
@@ -112,10 +109,9 @@
 # 1. Создаём рабочую директорию
 mkdir -p ~/ros2_ws/src && cd ~/ros2_ws/src
 
-# 2. Клонируем ROSiK и зависимые пакеты
-git clone https://github.com/stepanburmistrov/rosik.git
+# 2. Копируем esp32_bridge в ~/ros2_ws/src
 
-# 4. Сборка
+# 3. Сборка
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
@@ -130,25 +126,26 @@ source install/setup.bash
 
 ## 🚀 Запуск ROS 2-нод 
 
-| Шаг | Команда                                                                                                                   | Описание            |
-| --- | ------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| 1   | `ros2 run esp32_bridge esp32_bridge --ros-args -p host:=<IP_ESP32> `                                                      | WebSocket-мост      |
-| 2   | `rviz2`  → `File → Open Config` → `config/rviz/rosik.rviz`                                                                | Визуализация данных |
-| 3   | `ros2 launch slam_toolbox online_sync_launch.py slam_params_file:=config/slam_param.yaml`                                 | Онлайн SLAM         |
-| 4   | `ros2 run teleop_twist_keyboard teleop_twist_keyboard`                                                                    | Телеуправление      |
-| 5   | `ros2 service call /slam_toolbox/serialize_map slam_toolbox/srv/SerializePoseGraph "{filename: '~/ros2_ws/maps/my_map'}"` | Сохранить карту     |
-| 6   | `ros2 launch slam_toolbox localization_launch.py slam_params_file:=config/slam_localization.yaml`                         | Локализация         |
-| 7   | `ros2 launch nav2_bringup navigation_launch.py params_file:=config/nav_param.yaml`                                        | Навигация `nav2`    |
+| Шаг | Команда                                                                                                                     | Описание            |
+| --- | --------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| 1   | `ros2 run esp32_bridge esp32_bridge --ros-args -p host:=<IP_ESP32> `                                                        | WebSocket-мост      |
+| 2   | `rviz2`  → `File → Open Config` → `config/rviz/rosik.rviz`                                                                  | Визуализация данных |
+| 3   | `ros2 launch slam_toolbox online_sync_launch.py slam_params_file:=~/ros2_ws/src/esp32_bridge/config/slam_param.yaml`        | Онлайн SLAM         |
+| 4   | `ros2 run teleop_twist_keyboard teleop_twist_keyboard`                                                                      | Телеуправление      |
+| 5   | `ros2 service call /slam_toolbox/serialize_map slam_toolbox/srv/SerializePoseGraph "{filename: '~/ros2_ws/maps/my_map'}"`   | Сохранить карту     |
+| 6   | `ros2 launch slam_toolbox localization_launch.py slam_params_file:=~/ros2_ws/src/esp32_bridge/config/slam_localization.yaml`| Локализация         |
+| 7   | `ros2 launch nav2_bringup navigation_launch.py params_file:=~/ros2_ws/src/esp32_bridge/config/nav_param.yaml`               | Навигация `nav2`    |
 
 > **WSL 2**: перед запуском RViz 2<br>
 > `export DISPLAY=$(ip route | awk '/default/ {print $3}'):0.0` или
 > `export DISPLAY=xxx.xxx.xxx.xxx:0.0`
 
+Настройки RVIZ в файле `esp32_bridge/config/rviz.rviz`
+
 ---
 
-> Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**
-> Stepik-курс: [https://stepik.org/course/221157](https://stepik.org/course/221157)
-
+* Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**
+* Stepik- Народный курс: [https://stepik.org/course/221157](https://stepik.org/course/221157)
 
 ---
 
