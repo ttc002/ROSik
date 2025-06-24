@@ -148,7 +148,7 @@ source install/setup.bash
 ---
 
 * Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**
-* Stepik- Народный курс: [https://stepik.org/course/221157](https://stepik.org/course/221157)
+* Stepik- Народный курс по ROS2: [https://stepik.org/course/221157](https://stepik.org/course/221157)
 
 ---
 
