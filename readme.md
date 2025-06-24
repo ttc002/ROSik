@@ -146,7 +146,7 @@ source install/setup.bash
 ![Работа навигации](/images/ROSIK_nav.gif)
 
 ---
-
+<a id="контакты">Контакты</a>
 * Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**
 * Stepik- Народный курс по ROS2: [https://stepik.org/course/221157](https://stepik.org/course/221157)
 
