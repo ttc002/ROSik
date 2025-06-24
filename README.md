@@ -49,7 +49,7 @@
 Файл CorelDraw **`/Scheme/ROSik_scheme.cdr`**  
 а также PNG **`/Scheme/scheme.png`**.  
 В схеме показаны соединения питания (8,4 V → 5 V), сигнальные линии к драйверу моторов, энкодерам, лидару (UART)  
-![Схема робота](/Scheme/scheme.png)
+![Схема робота](https://github.com/ttc002/ROSik/blob/main/Scheme/MAIN.png)
 
 ---
 
