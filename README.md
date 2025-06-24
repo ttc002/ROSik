@@ -47,8 +47,9 @@
 ## 🔌 <a id="электрическая-схема">Электрическая схема</a>
 
 Файл CorelDraw **`/Scheme/ROSik_scheme.cdr`**  
-а также PNG **`/Scheme/scheme.png`**.  
+а также PNG **`/Scheme/scheme.png`**. 
 В схеме показаны соединения питания (8,4 V → 5 V), сигнальные линии к драйверу моторов, энкодерам, лидару (UART)  
+схема Fritzing **`/Scheme/MAIN.png`** с добавлением дисплеев и динамика.
 ![Схема робота](https://github.com/ttc002/ROSik/blob/main/Scheme/MAIN.png)
 
 ---
@@ -145,10 +146,21 @@ source install/setup.bash
 ## GIF - демонстрация движения в автономном режиме
 ![Работа навигации](/images/ROSIK_nav.gif)
 
+
+## Дисплей
+`ros2 run image_stream send_image --ros-args -p host:=<YOUR_ESP_IP>` - отправляет данные по socket на дисплей из /image_raw. Прошивка MAIN.ino
+
+`ros2 run image_stream read_image --ros-args -p video_path:=<VIDEO_PATH>` - отправляет данные в топик /image_rgb
+
+
+## Динамик 
+`ros2 run esp_miniBot send_music --ros-args -p host:=<YOUR_ESP_IP>` - отправляет музыку из топика /audio_bytes
+`ros2 run esp_miniBot read_mp3 --ros-args -p folder:=<YOUR_FOLDER>` - чтение mp3 из папки
+`ros2 run esp_miniBot speaker` - создание вируального динамика, и чтение из него в топик
+
 ---
 <a id="контакты">Контакты</a>
-* Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**
+* Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**  **[@petrArchLinux](https://t.me/petrArchLinux)**
 * Stepik- Народный курс по ROS2: [https://stepik.org/course/221157](https://stepik.org/course/221157)
 
 ---
-
