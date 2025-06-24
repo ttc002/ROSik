@@ -1,7 +1,7 @@
 # ROSiK  
 **Robot Operating System — interactive Kit**  
 
-![Робот ROSik](https://github.com/stepanburmistrov/ROSik/blob/main/images/photo.png?raw=true)
+![Робот ROSik](https://github.com/stepanburmistrov/ROSik/blob/main/images/ROSik.png?raw=true)
 
 
 Мини-робот на **ESP32 Wroom-32 + ROS 2**, который:
