@@ -30,16 +30,15 @@
 
 ---
 
-## 🛒 Аппаратная часть (BOM)
-#аппаратная-часть-bom
-| 1 | **ESP32 Wroom-32 DevKit**         | https://aliexpress.ru/item/1005006697750568.html
-| 2 | DC-мотор N20 60 RPM + энкодер     | https://aliexpress.ru/item/1005007145668771.html
-| 3 | Драйвер моторов ZK-5AD            | https://aliexpress.ru/item/1005005798367960.html
-| 4 | Лидар                             | https://aliexpress.ru/item/1005008371059417.html
-| 5 | Аккумулятор 18650 × 2 + держатель | https://aliexpress.ru/item/1005005447141518.html
-| 6 | Понижающий DC-DC                  | https://aliexpress.ru/item/32896699470.html
-| 7 | Переключатель питания             | https://aliexpress.ru/item/4000973563250.html
-| 8 | Type-C зарядка  2S 1A             | https://aliexpress.ru/item/1005006628986640.html
+## 🛒<a id="аппаратная-часть-bom">Аппаратная часть (BOM)</a>
+* | 1 | **ESP32 Wroom-32 DevKit**         | https://aliexpress.ru/item/1005006697750568.html
+* | 2 | DC-мотор N20 60 RPM + энкодер     | https://aliexpress.ru/item/1005007145668771.html
+* | 3 | Драйвер моторов ZK-5AD            | https://aliexpress.ru/item/1005005798367960.html
+* | 4 | Лидар                             | https://aliexpress.ru/item/1005008371059417.html
+* | 5 | Аккумулятор 18650 × 2 + держатель | https://aliexpress.ru/item/1005005447141518.html
+* | 6 | Понижающий DC-DC                  | https://aliexpress.ru/item/32896699470.html
+* | 7 | Переключатель питания             | https://aliexpress.ru/item/4000973563250.html
+* | 8 | Type-C зарядка  2S 1A             | https://aliexpress.ru/item/1005006628986640.html
 
 
 ---
