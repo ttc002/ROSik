@@ -1,4 +1,3 @@
-````markdown
 # ROSiK  
 **Robot Operating System — interactive Kit**  
 
@@ -134,6 +133,3 @@ source install/setup.bash
 
 ---
 
-
-```
-```
