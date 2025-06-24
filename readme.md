@@ -140,6 +140,8 @@ source install/setup.bash
 > `export DISPLAY=xxx.xxx.xxx.xxx:0.0`
 
 Настройки RVIZ в файле `esp32_bridge/config/rviz.rviz`
+![Работа навигации](/images/nav.png)
+
 
 ![Работа навигации](/images/ROSIK_nav.gif)
 
