@@ -1,8 +1,7 @@
-````markdown
 # ROSiK  
 **Robot Operating System — interactive Kit**  
 
-![Робот ROSik](https://github.com/stepanburmistrov/ROS2_robotV1/blob/main/3D/3d_Real.png?raw=true)
+![Робот ROSik](https://github.com/stepanburmistrov/ROSik/blob/main/images/photo.png?raw=true)
 
 
 Мини-робот на **ESP32 Wroom-32 + ROS 2**, который:
@@ -134,6 +133,3 @@ source install/setup.bash
 
 ---
 
-
-```
-```
