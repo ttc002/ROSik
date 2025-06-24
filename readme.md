@@ -141,7 +141,7 @@ source install/setup.bash
 
 Настройки RVIZ в файле `esp32_bridge/config/rviz.rviz`
 
-![Работа навигации](/images/nav.png)
+![Работа навигации](/images/ROSIK_nav.gif)
 
 ---
 
