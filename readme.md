@@ -12,7 +12,7 @@
 
 Работает **на любой машине**: чистая Ubuntu 24.04, WSL 2 под Windows или виртуалка — нужен лишь Wi-Fi.
 
-Инструкция по установке [Ubuntu](https://stepik.org/lesson/1505338/step/1?unit=1525484), [WSL](https://stepik.org/lesson/1505339/step/4?unit=1525485), а также  [запуску графический приложений (RVIZ](https://stepik.org/lesson/1505339/step/5?unit=1525485).
+Инструкция по установке [Ubuntu](https://stepik.org/lesson/1505338/step/1?unit=1525484), [WSL](https://stepik.org/lesson/1505339/step/4?unit=1525485), а также  [запуску графический приложений (RVIZ)](https://stepik.org/lesson/1505339/step/5?unit=1525485).
 
 
 
@@ -97,7 +97,7 @@
 ![Схема робота](/pythonGUI/gui.png)
 
 * Измените IP адрес
-* Проверьте работу обометрии и управления роботом
+* Проверьте работу одометрии и управления роботом
 * Подберите коэффициенты и измените их в прошивке робота
 
 ---
@@ -140,13 +140,15 @@ source install/setup.bash
 > `export DISPLAY=xxx.xxx.xxx.xxx:0.0`
 
 Настройки RVIZ в файле `esp32_bridge/config/rviz.rviz`
-
 ![Работа навигации](/images/nav.png)
 
----
+## GIF - демонстрация движения в автономном режиме
+![Работа навигации](/images/ROSIK_nav.gif)
 
+---
+<a id="контакты">Контакты</a>
 * Telegram: **[@burmistrov\_robotics](https://t.me/burmistrov_robotics)**
-* Stepik- Народный курс: [https://stepik.org/course/221157](https://stepik.org/course/221157)
+* Stepik- Народный курс по ROS2: [https://stepik.org/course/221157](https://stepik.org/course/221157)
 
 ---
 
