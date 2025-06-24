@@ -155,7 +155,9 @@ source install/setup.bash
 
 ## Динамик 
 `ros2 run esp_miniBot send_music --ros-args -p host:=<YOUR_ESP_IP>` - отправляет музыку из топика /audio_bytes
+
 `ros2 run esp_miniBot read_mp3 --ros-args -p folder:=<YOUR_FOLDER>` - чтение mp3 из папки
+
 `ros2 run esp_miniBot speaker` - создание вируального динамика, и чтение из него в топик
 
 ---
