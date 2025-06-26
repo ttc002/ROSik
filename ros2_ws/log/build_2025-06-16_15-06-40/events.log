@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000861] (esp32_bridge) JobQueued: {'identifier': 'esp32_bridge', 'dependencies': OrderedDict()}
+[0.001030] (esp_miniBot) JobQueued: {'identifier': 'esp_miniBot', 'dependencies': OrderedDict()}
+[0.001070] (image_stream) JobQueued: {'identifier': 'image_stream', 'dependencies': OrderedDict()}
+[0.001105] (web_joystick) JobQueued: {'identifier': 'web_joystick', 'dependencies': OrderedDict()}
+[0.001138] (esp32_bridge) JobStarted: {'identifier': 'esp32_bridge'}
+[0.015899] (esp_miniBot) JobStarted: {'identifier': 'esp_miniBot'}
+[0.033367] (image_stream) JobStarted: {'identifier': 'image_stream'}
+[0.051229] (web_joystick) JobStarted: {'identifier': 'web_joystick'}
+[0.099817] (-) TimerEvent: {}
+[0.200426] (-) TimerEvent: {}
+[0.300845] (-) TimerEvent: {}
+[0.401516] (-) TimerEvent: {}
+[0.502168] (-) TimerEvent: {}
+[0.602785] (-) TimerEvent: {}
+[0.703385] (-) TimerEvent: {}
+[0.803713] (-) TimerEvent: {}
+[0.904013] (-) TimerEvent: {}
+[1.004330] (-) TimerEvent: {}
+[1.104682] (-) TimerEvent: {}
+[1.205266] (-) TimerEvent: {}
+[1.305643] (-) TimerEvent: {}
+[1.405997] (-) TimerEvent: {}
+[1.506380] (-) TimerEvent: {}
+[1.606787] (-) TimerEvent: {}
+[1.707384] (-) TimerEvent: {}
+[1.810405] (-) TimerEvent: {}
+[1.910757] (-) TimerEvent: {}
+[2.013535] (-) TimerEvent: {}
+[2.113833] (-) TimerEvent: {}
+[2.214139] (-) TimerEvent: {}
+[2.314456] (-) TimerEvent: {}
+[2.414786] (-) TimerEvent: {}
+[2.515123] (-) TimerEvent: {}
+[2.615413] (-) TimerEvent: {}
+[2.717541] (-) TimerEvent: {}
+[2.817869] (-) TimerEvent: {}
+[2.919323] (-) TimerEvent: {}
+[2.925137] (esp_miniBot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/esp_miniBot', 'build', '--build-base', '/mnt/ros2_ws/build/esp_miniBot/build', 'install', '--record', '/mnt/ros2_ws/build/esp_miniBot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/ros2_ws/src/esp_miniBot', 'env': {'USER': 'rx', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rx', 'OLDPWD': '/mnt', 'LESS': '-R', 'DESKTOP_SESSION': 'i3', 'ZSH': '/home/rx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-:0-34232.sock', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rx', 'WINDOWID': '142606341', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ALACRITTY_LOG': '/tmp/Alacritty-34232.log', 'TERM': 'xterm-256color', 'USERNAME': 'rx', 'XDG_SESSION_ID': '575', 'WINDOWPATH': '2', 'PATH': '/home/rx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'i3', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ALACRITTY_WINDOW_ID': '142606341', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/mnt/ros2_ws/build/esp_miniBot', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/home/rx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'I3SOCK': '/run/user/1000/i3/ipc-socket.21725', 'COLCON': '1', 'PYTHONPATH': '/mnt/ros2_ws/build/esp_miniBot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages:'}, 'shell': False}
+[2.936339] (esp32_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/esp32_bridge', 'build', '--build-base', '/mnt/ros2_ws/build/esp32_bridge/build', 'install', '--record', '/mnt/ros2_ws/build/esp32_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/ros2_ws/src/esp32_bridge', 'env': {'USER': 'rx', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rx', 'OLDPWD': '/mnt', 'LESS': '-R', 'DESKTOP_SESSION': 'i3', 'ZSH': '/home/rx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-:0-34232.sock', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rx', 'WINDOWID': '142606341', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ALACRITTY_LOG': '/tmp/Alacritty-34232.log', 'TERM': 'xterm-256color', 'USERNAME': 'rx', 'XDG_SESSION_ID': '575', 'WINDOWPATH': '2', 'PATH': '/home/rx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'i3', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ALACRITTY_WINDOW_ID': '142606341', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/mnt/ros2_ws/build/esp32_bridge', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/home/rx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'I3SOCK': '/run/user/1000/i3/ipc-socket.21725', 'COLCON': '1', 'PYTHONPATH': '/mnt/ros2_ws/build/esp32_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages:'}, 'shell': False}
+[2.949939] (web_joystick) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/web_joystick', 'build', '--build-base', '/mnt/ros2_ws/build/web_joystick/build', 'install', '--record', '/mnt/ros2_ws/build/web_joystick/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/ros2_ws/src/web_joystick', 'env': {'USER': 'rx', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rx', 'OLDPWD': '/mnt', 'LESS': '-R', 'DESKTOP_SESSION': 'i3', 'ZSH': '/home/rx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-:0-34232.sock', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rx', 'WINDOWID': '142606341', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ALACRITTY_LOG': '/tmp/Alacritty-34232.log', 'TERM': 'xterm-256color', 'USERNAME': 'rx', 'XDG_SESSION_ID': '575', 'WINDOWPATH': '2', 'PATH': '/home/rx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'i3', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ALACRITTY_WINDOW_ID': '142606341', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/mnt/ros2_ws/build/web_joystick', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/home/rx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'I3SOCK': '/run/user/1000/i3/ipc-socket.21725', 'COLCON': '1', 'PYTHONPATH': '/mnt/ros2_ws/build/web_joystick/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages:'}, 'shell': False}
+[2.952442] (image_stream) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_stream', 'build', '--build-base', '/mnt/ros2_ws/build/image_stream/build', 'install', '--record', '/mnt/ros2_ws/build/image_stream/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/ros2_ws/src/image_stream', 'env': {'USER': 'rx', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/rx', 'OLDPWD': '/mnt', 'LESS': '-R', 'DESKTOP_SESSION': 'i3', 'ZSH': '/home/rx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-:0-34232.sock', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rx', 'WINDOWID': '142606341', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ALACRITTY_LOG': '/tmp/Alacritty-34232.log', 'TERM': 'xterm-256color', 'USERNAME': 'rx', 'XDG_SESSION_ID': '575', 'WINDOWPATH': '2', 'PATH': '/home/rx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'i3', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ALACRITTY_WINDOW_ID': '142606341', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/mnt/ros2_ws/build/image_stream', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/home/rx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'I3SOCK': '/run/user/1000/i3/ipc-socket.21725', 'COLCON': '1', 'PYTHONPATH': '/mnt/ros2_ws/build/image_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages:'}, 'shell': False}
+[3.019423] (-) TimerEvent: {}
+[3.121545] (-) TimerEvent: {}
+[3.221843] (-) TimerEvent: {}
+[3.322154] (-) TimerEvent: {}
+[3.329594] (esp_miniBot) StdoutLine: {'line': b'running egg_info\n'}
+[3.346879] (image_stream) StdoutLine: {'line': b'running egg_info\n'}
+[3.351525] (esp_miniBot) StdoutLine: {'line': b'writing ../../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO\n'}
+[3.376616] (image_stream) StdoutLine: {'line': b'writing ../../build/image_stream/image_stream.egg-info/PKG-INFO\n'}
+[3.386330] (web_joystick) StdoutLine: {'line': b'running egg_info\n'}
+[3.387451] (esp32_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[3.409413] (web_joystick) StdoutLine: {'line': b'writing ../../build/web_joystick/web_joystick.egg-info/PKG-INFO\n'}
+[3.413140] (esp32_bridge) StdoutLine: {'line': b'writing ../../build/esp32_bridge/esp32_bridge.egg-info/PKG-INFO\n'}
+[3.422241] (-) TimerEvent: {}
+[3.522557] (-) TimerEvent: {}
+[3.530504] (esp32_bridge) StdoutLine: {'line': b'writing dependency_links to ../../build/esp32_bridge/esp32_bridge.egg-info/dependency_links.txt\n'}
+[3.531136] (image_stream) StdoutLine: {'line': b'writing dependency_links to ../../build/image_stream/image_stream.egg-info/dependency_links.txt\n'}
+[3.531596] (image_stream) StdoutLine: {'line': b'writing entry points to ../../build/image_stream/image_stream.egg-info/entry_points.txt\n'}
+[3.532102] (image_stream) StdoutLine: {'line': b'writing requirements to ../../build/image_stream/image_stream.egg-info/requires.txt\n'}
+[3.532513] (image_stream) StdoutLine: {'line': b'writing top-level names to ../../build/image_stream/image_stream.egg-info/top_level.txt\n'}
+[3.578140] (image_stream) StdoutLine: {'line': b"reading manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'\n"}
+[3.622672] (-) TimerEvent: {}
+[3.723123] (-) TimerEvent: {}
+[3.758770] (esp_miniBot) StdoutLine: {'line': b'writing dependency_links to ../../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt\n'}
+[3.760207] (esp32_bridge) StdoutLine: {'line': b'writing entry points to ../../build/esp32_bridge/esp32_bridge.egg-info/entry_points.txt\n'}
+[3.761959] (image_stream) StdoutLine: {'line': b"writing manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'\n"}
+[3.769183] (web_joystick) StdoutLine: {'line': b'writing dependency_links to ../../build/web_joystick/web_joystick.egg-info/dependency_links.txt\n'}
+[3.773112] (esp_miniBot) StdoutLine: {'line': b'writing entry points to ../../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt\n'}
+[3.778195] (esp32_bridge) StdoutLine: {'line': b'writing requirements to ../../build/esp32_bridge/esp32_bridge.egg-info/requires.txt\n'}
+[3.780311] (image_stream) StdoutLine: {'line': b'running build\n'}
+[3.780686] (image_stream) StdoutLine: {'line': b'running build_py\n'}
+[3.793699] (web_joystick) StdoutLine: {'line': b'writing entry points to ../../build/web_joystick/web_joystick.egg-info/entry_points.txt\n'}
+[3.797132] (esp_miniBot) StdoutLine: {'line': b'writing requirements to ../../build/esp_miniBot/esp_miniBot.egg-info/requires.txt\n'}
+[3.797789] (esp_miniBot) StdoutLine: {'line': b'writing top-level names to ../../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt\n'}
+[3.808667] (esp32_bridge) StdoutLine: {'line': b'writing top-level names to ../../build/esp32_bridge/esp32_bridge.egg-info/top_level.txt\n'}
+[3.810680] (image_stream) StdoutLine: {'line': b'running install\n'}
+[3.817081] (web_joystick) StdoutLine: {'line': b'writing requirements to ../../build/web_joystick/web_joystick.egg-info/requires.txt\n'}
+[3.823338] (-) TimerEvent: {}
+[3.826897] (web_joystick) StdoutLine: {'line': b'writing top-level names to ../../build/web_joystick/web_joystick.egg-info/top_level.txt\n'}
+[3.848682] (esp_miniBot) StdoutLine: {'line': b"reading manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'\n"}
+[3.853225] (esp_miniBot) StdoutLine: {'line': b"writing manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'\n"}
+[3.853506] (esp_miniBot) StdoutLine: {'line': b'running build\n'}
+[3.853683] (esp_miniBot) StdoutLine: {'line': b'running build_py\n'}
+[3.860173] (esp_miniBot) StdoutLine: {'line': b'copying esp_miniBot/mp3_file_read.py -> /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot\n'}
+[3.860739] (esp_miniBot) StdoutLine: {'line': b'running install\n'}
+[3.869141] (image_stream) StdoutLine: {'line': b'running install_lib\n'}
+[3.886666] (web_joystick) StdoutLine: {'line': b"reading manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'\n"}
+[3.889269] (esp_miniBot) StdoutLine: {'line': b'running install_lib\n'}
+[3.889562] (web_joystick) StdoutLine: {'line': b"writing manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'\n"}
+[3.889754] (web_joystick) StdoutLine: {'line': b'running build\n'}
+[3.889929] (web_joystick) StdoutLine: {'line': b'running build_py\n'}
+[3.896925] (image_stream) StdoutLine: {'line': b'creating /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream\n'}
+[3.897185] (web_joystick) StdoutLine: {'line': b'running install\n'}
+[3.897439] (image_stream) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/image_stream/build/lib/image_stream/image_to_socket_node.py -> /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream\n'}
+[3.898435] (image_stream) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/image_stream/build/lib/image_stream/image_publisher_node.py -> /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream\n'}
+[3.902195] (image_stream) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/image_stream/build/lib/image_stream/__init__.py -> /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream\n'}
+[3.902435] (image_stream) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream/image_to_socket_node.py to image_to_socket_node.cpython-312.pyc\n'}
+[3.902727] (image_stream) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream/image_publisher_node.py to image_publisher_node.cpython-312.pyc\n'}
+[3.904800] (image_stream) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream/__init__.py to __init__.cpython-312.pyc\n'}
+[3.905432] (image_stream) StdoutLine: {'line': b'running install_data\n'}
+[3.906829] (esp32_bridge) StdoutLine: {'line': b"reading manifest file '../../build/esp32_bridge/esp32_bridge.egg-info/SOURCES.txt'\n"}
+[3.907124] (image_stream) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.912614] (esp32_bridge) StdoutLine: {'line': b"writing manifest file '../../build/esp32_bridge/esp32_bridge.egg-info/SOURCES.txt'\n"}
+[3.912870] (esp32_bridge) StdoutLine: {'line': b'running build\n'}
+[3.913063] (esp32_bridge) StdoutLine: {'line': b'running build_py\n'}
+[3.913251] (esp32_bridge) StdoutLine: {'line': b'running install\n'}
+[3.914356] (esp_miniBot) StdoutLine: {'line': b'creating /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[3.914599] (esp_miniBot) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/music_stream.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[3.921420] (esp_miniBot) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/espSpeedStreamer.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[3.924562] (web_joystick) StdoutLine: {'line': b'running install_lib\n'}
+[3.924782] (-) TimerEvent: {}
+[3.924946] (esp_miniBot) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/mp3_file_read.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[3.925152] (esp_miniBot) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/__init__.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[3.925340] (esp_miniBot) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/music_stream.py to music_stream.cpython-312.pyc\n'}
+[3.926204] (esp_miniBot) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/espSpeedStreamer.py to espSpeedStreamer.cpython-312.pyc\n'}
+[3.928202] (esp_miniBot) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/mp3_file_read.py to mp3_file_read.cpython-312.pyc\n'}
+[3.935497] (esp_miniBot) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/__init__.py to __init__.cpython-312.pyc\n'}
+[3.935846] (esp_miniBot) StdoutLine: {'line': b'running install_data\n'}
+[3.938322] (esp_miniBot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.939650] (esp32_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[3.951387] (web_joystick) StdoutLine: {'line': b'creating /mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages/web_joystick\n'}
+[3.951753] (web_joystick) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/web_joystick/build/lib/web_joystick/web_joystick.py -> /mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages/web_joystick\n'}
+[3.953200] (web_joystick) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/web_joystick/build/lib/web_joystick/__init__.py -> /mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages/web_joystick\n'}
+[3.954094] (web_joystick) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages/web_joystick/web_joystick.py to web_joystick.cpython-312.pyc\n'}
+[3.956932] (web_joystick) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages/web_joystick/__init__.py to __init__.cpython-312.pyc\n'}
+[3.957228] (web_joystick) StdoutLine: {'line': b'running install_data\n'}
+[3.958443] (web_joystick) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.967536] (esp32_bridge) StdoutLine: {'line': b'running install_data\n'}
+[3.967800] (esp32_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.975578] (image_stream) StdoutLine: {'line': b'Copying ../../build/image_stream/image_stream.egg-info to /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream-0.0.0-py3.12.egg-info\n'}
+[3.977274] (image_stream) StdoutLine: {'line': b'running install_scripts\n'}
+[4.013275] (esp_miniBot) StdoutLine: {'line': b'Copying ../../build/esp_miniBot/esp_miniBot.egg-info to /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info\n'}
+[4.016794] (esp_miniBot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.024886] (-) TimerEvent: {}
+[4.030942] (esp32_bridge) StdoutLine: {'line': b"removing '/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages/esp32_bridge-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[4.031351] (esp32_bridge) StdoutLine: {'line': b'Copying ../../build/esp32_bridge/esp32_bridge.egg-info to /mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages/esp32_bridge-0.0.0-py3.12.egg-info\n'}
+[4.034552] (web_joystick) StdoutLine: {'line': b'Copying ../../build/web_joystick/web_joystick.egg-info to /mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages/web_joystick-0.0.0-py3.12.egg-info\n'}
+[4.035250] (esp32_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[4.036954] (web_joystick) StdoutLine: {'line': b'running install_scripts\n'}
+[4.124984] (-) TimerEvent: {}
+[4.150498] (image_stream) StdoutLine: {'line': b'Installing read_image script to /mnt/ros2_ws/install/image_stream/lib/image_stream\n'}
+[4.151738] (image_stream) StdoutLine: {'line': b'Installing send_image script to /mnt/ros2_ws/install/image_stream/lib/image_stream\n'}
+[4.160404] (image_stream) StdoutLine: {'line': b"writing list of installed files to '/mnt/ros2_ws/build/image_stream/install.log'\n"}
+[4.208128] (esp32_bridge) StdoutLine: {'line': b'Installing esp32_bridge script to /mnt/ros2_ws/install/esp32_bridge/lib/esp32_bridge\n'}
+[4.208721] (esp32_bridge) StdoutLine: {'line': b"writing list of installed files to '/mnt/ros2_ws/build/esp32_bridge/install.log'\n"}
+[4.209802] (esp_miniBot) StdoutLine: {'line': b'Installing read_mp3 script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[4.215132] (image_stream) CommandEnded: {'returncode': 0}
+[4.222089] (esp_miniBot) StdoutLine: {'line': b'Installing send_music script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[4.225053] (-) TimerEvent: {}
+[4.226806] (web_joystick) StdoutLine: {'line': b'Installing web script to /mnt/ros2_ws/install/web_joystick/lib/web_joystick\n'}
+[4.229218] (esp_miniBot) StdoutLine: {'line': b'Installing send_speed script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[4.229825] (esp_miniBot) StdoutLine: {'line': b"writing list of installed files to '/mnt/ros2_ws/build/esp_miniBot/install.log'\n"}
+[4.235274] (web_joystick) StdoutLine: {'line': b"writing list of installed files to '/mnt/ros2_ws/build/web_joystick/install.log'\n"}
+[4.296789] (image_stream) JobEnded: {'identifier': 'image_stream', 'rc': 0}
+[4.301965] (esp32_bridge) CommandEnded: {'returncode': 0}
+[4.325166] (-) TimerEvent: {}
+[4.347447] (esp32_bridge) JobEnded: {'identifier': 'esp32_bridge', 'rc': 0}
+[4.348936] (esp_miniBot) CommandEnded: {'returncode': 0}
+[4.392407] (esp_miniBot) JobEnded: {'identifier': 'esp_miniBot', 'rc': 0}
+[4.395957] (web_joystick) CommandEnded: {'returncode': 0}
+[4.425343] (-) TimerEvent: {}
+[4.452432] (web_joystick) JobEnded: {'identifier': 'web_joystick', 'rc': 0}
+[4.455937] (-) EventReactorShutdown: {}

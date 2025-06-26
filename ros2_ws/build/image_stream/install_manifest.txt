@@ -1,0 +1,15 @@
+/home/petr/ros2_ws/install/image_stream/share/ament_index/resource_index/package_run_dependencies/image_stream
+/home/petr/ros2_ws/install/image_stream/share/ament_index/resource_index/parent_prefix_path/image_stream
+/home/petr/ros2_ws/install/image_stream/share/image_stream/environment/ament_prefix_path.sh
+/home/petr/ros2_ws/install/image_stream/share/image_stream/environment/ament_prefix_path.dsv
+/home/petr/ros2_ws/install/image_stream/share/image_stream/environment/path.sh
+/home/petr/ros2_ws/install/image_stream/share/image_stream/environment/path.dsv
+/home/petr/ros2_ws/install/image_stream/share/image_stream/local_setup.bash
+/home/petr/ros2_ws/install/image_stream/share/image_stream/local_setup.sh
+/home/petr/ros2_ws/install/image_stream/share/image_stream/local_setup.zsh
+/home/petr/ros2_ws/install/image_stream/share/image_stream/local_setup.dsv
+/home/petr/ros2_ws/install/image_stream/share/image_stream/package.dsv
+/home/petr/ros2_ws/install/image_stream/share/ament_index/resource_index/packages/image_stream
+/home/petr/ros2_ws/install/image_stream/share/image_stream/cmake/image_streamConfig.cmake
+/home/petr/ros2_ws/install/image_stream/share/image_stream/cmake/image_streamConfig-version.cmake
+/home/petr/ros2_ws/install/image_stream/share/image_stream/package.xml

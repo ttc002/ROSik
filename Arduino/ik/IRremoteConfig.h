@@ -1,0 +1,2 @@
+#define IR_RECEIVE_PIN 15
+

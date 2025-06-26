@@ -1,0 +1,138 @@
+[0] Adwaita Mono
+[1] Adwaita Mono Bold
+[2] Adwaita Mono Bold Italic
+[3] Adwaita Mono Italic
+[4] Adwaita Sans
+[5] Adwaita Sans Italic
+[6] C059-BdIta
+[7] C059-Bold
+[8] C059-Italic
+[9] C059-Roman
+[10] Cantarell Regular
+[11] D050000L
+[12] Dialog.bold
+[13] Dialog.bolditalic
+[14] Dialog.italic
+[15] Dialog.plain
+[16] DialogInput.bold
+[17] DialogInput.bolditalic
+[18] DialogInput.italic
+[19] DialogInput.plain
+[20] Font Awesome 6 Brands Regular
+[21] Font Awesome 6 Free Regular
+[22] Font Awesome 6 Free Solid
+[23] Font Awesome v4 Compatibility Regular
+[24] FreeMono
+[25] FreeMono Bold
+[26] FreeMono Bold Oblique
+[27] FreeMono Oblique
+[28] FreeSans
+[29] FreeSans Bold
+[30] FreeSans Bold Oblique
+[31] FreeSans Oblique
+[32] FreeSerif
+[33] FreeSerif Bold
+[34] FreeSerif Bold Italic
+[35] FreeSerif Italic
+[36] JetBrains Mono Bold
+[37] JetBrains Mono Bold Italic
+[38] JetBrains Mono ExtraBold
+[39] JetBrains Mono ExtraBold Italic
+[40] JetBrains Mono ExtraLight
+[41] JetBrains Mono ExtraLight Italic
+[42] JetBrains Mono Italic
+[43] JetBrains Mono Light
+[44] JetBrains Mono Light Italic
+[45] JetBrains Mono Medium
+[46] JetBrains Mono Medium Italic
+[47] JetBrains Mono NL Bold
+[48] JetBrains Mono NL Bold Italic
+[49] JetBrains Mono NL ExtraBold
+[50] JetBrains Mono NL ExtraBold Italic
+[51] JetBrains Mono NL ExtraLight
+[52] JetBrains Mono NL ExtraLight Italic
+[53] JetBrains Mono NL Italic
+[54] JetBrains Mono NL Light
+[55] JetBrains Mono NL Light Italic
+[56] JetBrains Mono NL Medium
+[57] JetBrains Mono NL Medium Italic
+[58] JetBrains Mono NL Regular
+[59] JetBrains Mono NL SemiBold
+[60] JetBrains Mono NL SemiBold Italic
+[61] JetBrains Mono NL Thin
+[62] JetBrains Mono NL Thin Italic
+[63] JetBrains Mono Regular
+[64] JetBrains Mono SemiBold
+[65] JetBrains Mono SemiBold Italic
+[66] JetBrains Mono Thin
+[67] JetBrains Mono Thin Italic
+[68] Liberation Mono
+[69] Liberation Mono Bold
+[70] Liberation Mono Bold Italic
+[71] Liberation Mono Italic
+[72] Liberation Sans
+[73] Liberation Sans Bold
+[74] Liberation Sans Bold Italic
+[75] Liberation Sans Italic
+[76] Liberation Serif
+[77] Liberation Serif Bold
+[78] Liberation Serif Bold Italic
+[79] Liberation Serif Italic
+[80] Monospaced.bold
+[81] Monospaced.bolditalic
+[82] Monospaced.italic
+[83] Monospaced.plain
+[84] NimbusMonoPS-Bold
+[85] NimbusMonoPS-BoldItalic
+[86] NimbusMonoPS-Italic
+[87] NimbusMonoPS-Regular
+[88] NimbusRoman-Bold
+[89] NimbusRoman-BoldItalic
+[90] NimbusRoman-Italic
+[91] NimbusRoman-Regular
+[92] NimbusSans-Bold
+[93] NimbusSans-BoldItalic
+[94] NimbusSans-Italic
+[95] NimbusSans-Regular
+[96] NimbusSansNarrow-Bold
+[97] NimbusSansNarrow-BoldOblique
+[98] NimbusSansNarrow-Oblique
+[99] NimbusSansNarrow-Regular
+[100] P052-Bold
+[101] P052-BoldItalic
+[102] P052-Italic
+[103] P052-Roman
+[104] SansSerif.bold
+[105] SansSerif.bolditalic
+[106] SansSerif.italic
+[107] SansSerif.plain
+[108] Serif.bold
+[109] Serif.bolditalic
+[110] Serif.italic
+[111] Serif.plain
+[112] Source Code Pro
+[113] Source Code Pro Black
+[114] Source Code Pro Black Italic
+[115] Source Code Pro Bold
+[116] Source Code Pro Bold Italic
+[117] Source Code Pro ExtraLight
+[118] Source Code Pro ExtraLight Italic
+[119] Source Code Pro Italic
+[120] Source Code Pro Light
+[121] Source Code Pro Light Italic
+[122] Source Code Pro Medium
+[123] Source Code Pro Medium Italic
+[124] Source Code Pro Semibold
+[125] Source Code Pro Semibold Italic
+[126] SourceCodeVF
+[127] SourceCodeVF Italic
+[128] Standard Symbols PS
+[129] URWBookman-Demi
+[130] URWBookman-DemiItalic
+[131] URWBookman-Light
+[132] URWBookman-LightItalic
+[133] URWGothic-Book
+[134] URWGothic-BookOblique
+[135] URWGothic-Demi
+[136] URWGothic-DemiOblique
+[137] Z003-MediumItalic

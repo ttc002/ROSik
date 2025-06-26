@@ -1,0 +1,4 @@
+[console_scripts]
+read_image = image_stream.image_publisher_node:main
+send_image = image_stream.image_to_socket_node:main
+

@@ -1,0 +1,23 @@
+[5.842s] Invoking command in '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/src/esp_miniBot': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_miniBot build --build-base /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/build install --record /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/install.log --single-version-externally-managed install_data
+[6.905s] running egg_info
+[6.907s] writing ../../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO
+[6.907s] writing dependency_links to ../../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt
+[7.045s] writing entry points to ../../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt
+[7.062s] writing requirements to ../../build/esp_miniBot/esp_miniBot.egg-info/requires.txt
+[7.074s] writing top-level names to ../../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt
+[7.087s] reading manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+[7.088s] writing manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+[7.094s] running build
+[7.094s] running build_py
+[7.095s] running install
+[7.095s] running install_lib
+[7.103s] running install_data
+[7.103s] running install_egg_info
+[7.112s] removing '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot-0.0.0-py3.11.egg-info' (and everything under it)
+[7.112s] Copying ../../build/esp_miniBot/esp_miniBot.egg-info to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot-0.0.0-py3.11.egg-info
+[7.114s] running install_scripts
+[7.212s] Installing read_mp3 script to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.214s] Installing send_music script to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.216s] Installing send_speed script to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.220s] writing list of installed files to '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/install.log'
+[7.293s] Invoked command in '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/src/esp_miniBot' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_miniBot build --build-base /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/build install --record /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp_miniBot/install.log --single-version-externally-managed install_data

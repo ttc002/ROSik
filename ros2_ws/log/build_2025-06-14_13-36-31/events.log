@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001417] (esp_miniBot) JobQueued: {'identifier': 'esp_miniBot', 'dependencies': OrderedDict()}
+[0.001692] (esp_talker) JobQueued: {'identifier': 'esp_talker', 'dependencies': OrderedDict()}
+[0.001778] (image_sender) JobQueued: {'identifier': 'image_sender', 'dependencies': OrderedDict()}
+[0.001823] (launcher) JobQueued: {'identifier': 'launcher', 'dependencies': OrderedDict()}
+[0.001864] (lidar_node) JobQueued: {'identifier': 'lidar_node', 'dependencies': OrderedDict()}
+[0.001908] (lidar_read) JobQueued: {'identifier': 'lidar_read', 'dependencies': OrderedDict()}
+[0.001951] (web_joystick) JobQueued: {'identifier': 'web_joystick', 'dependencies': OrderedDict()}
+[0.002020] (esp_miniBot) JobStarted: {'identifier': 'esp_miniBot'}
+[0.071219] (esp_talker) JobStarted: {'identifier': 'esp_talker'}
+[0.100300] (-) TimerEvent: {}
+[0.120534] (image_sender) JobStarted: {'identifier': 'image_sender'}
+[0.168345] (launcher) JobStarted: {'identifier': 'launcher'}
+[0.201826] (-) TimerEvent: {}
+[0.216261] (lidar_node) JobStarted: {'identifier': 'lidar_node'}
+[0.264514] (lidar_read) JobStarted: {'identifier': 'lidar_read'}
+[0.302102] (-) TimerEvent: {}
+[0.403787] (-) TimerEvent: {}
+[0.504429] (-) TimerEvent: {}
+[0.604876] (-) TimerEvent: {}
+[0.705650] (-) TimerEvent: {}
+[0.806143] (-) TimerEvent: {}
+[0.906903] (-) TimerEvent: {}
+[1.007665] (-) TimerEvent: {}
+[1.108159] (-) TimerEvent: {}
+[1.208671] (-) TimerEvent: {}
+[1.309437] (-) TimerEvent: {}
+[1.409867] (-) TimerEvent: {}
+[1.512253] (-) TimerEvent: {}
+[1.612720] (-) TimerEvent: {}
+[1.713267] (-) TimerEvent: {}
+[1.813665] (-) TimerEvent: {}
+[1.914090] (-) TimerEvent: {}
+[2.014589] (-) TimerEvent: {}
+[2.115258] (-) TimerEvent: {}
+[2.215630] (-) TimerEvent: {}
+[2.316108] (-) TimerEvent: {}
+[2.416650] (-) TimerEvent: {}
+[2.517155] (-) TimerEvent: {}
+[2.618159] (-) TimerEvent: {}
+[2.718830] (-) TimerEvent: {}
+[2.819410] (-) TimerEvent: {}
+[2.920277] (-) TimerEvent: {}
+[3.020906] (-) TimerEvent: {}
+[3.121291] (-) TimerEvent: {}
+[3.221671] (-) TimerEvent: {}
+[3.322075] (-) TimerEvent: {}
+[3.422529] (-) TimerEvent: {}
+[3.523045] (-) TimerEvent: {}
+[3.623560] (-) TimerEvent: {}
+[3.724197] (-) TimerEvent: {}
+[3.824670] (-) TimerEvent: {}
+[3.925090] (-) TimerEvent: {}
+[4.025542] (-) TimerEvent: {}
+[4.125916] (-) TimerEvent: {}
+[4.226331] (-) TimerEvent: {}
+[4.326724] (-) TimerEvent: {}
+[4.427130] (-) TimerEvent: {}
+[4.527617] (-) TimerEvent: {}
+[4.628507] (-) TimerEvent: {}
+[4.729261] (-) TimerEvent: {}
+[4.829893] (-) TimerEvent: {}
+[4.930269] (-) TimerEvent: {}
+[5.030734] (-) TimerEvent: {}
+[5.131230] (-) TimerEvent: {}
+[5.231903] (-) TimerEvent: {}
+[5.332819] (-) TimerEvent: {}
+[5.433661] (-) TimerEvent: {}
+[5.534307] (-) TimerEvent: {}
+[5.634974] (-) TimerEvent: {}
+[5.735458] (-) TimerEvent: {}
+[5.836309] (-) TimerEvent: {}
+[5.936871] (-) TimerEvent: {}
+[6.037264] (-) TimerEvent: {}
+[6.137673] (-) TimerEvent: {}
+[6.238198] (-) TimerEvent: {}
+[6.338991] (-) TimerEvent: {}
+[6.439707] (-) TimerEvent: {}
+[6.540606] (-) TimerEvent: {}
+[6.563823] (lidar_read) JobEnded: {'identifier': 'lidar_read', 'rc': 0}
+[6.566406] (esp_miniBot) JobEnded: {'identifier': 'esp_miniBot', 'rc': 'SIGINT'}
+[6.567086] (esp_talker) JobEnded: {'identifier': 'esp_talker', 'rc': 'SIGINT'}
+[6.567676] (image_sender) JobEnded: {'identifier': 'image_sender', 'rc': 'SIGINT'}
+[6.568255] (launcher) JobEnded: {'identifier': 'launcher', 'rc': 'SIGINT'}
+[6.568812] (lidar_node) JobEnded: {'identifier': 'lidar_node', 'rc': 'SIGINT'}
+[6.577121] (web_joystick) JobSkipped: {'identifier': 'web_joystick'}
+[6.577360] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[5.859s] Invoking command in '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/src/esp32_bridge': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp32_bridge build --build-base /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/build install --record /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/install.log --single-version-externally-managed install_data
+[6.923s] running egg_info
+[6.924s] writing ../../build/esp32_bridge/esp32_bridge.egg-info/PKG-INFO
+[6.937s] writing dependency_links to ../../build/esp32_bridge/esp32_bridge.egg-info/dependency_links.txt
+[6.939s] writing entry points to ../../build/esp32_bridge/esp32_bridge.egg-info/entry_points.txt
+[6.942s] writing requirements to ../../build/esp32_bridge/esp32_bridge.egg-info/requires.txt
+[6.944s] writing top-level names to ../../build/esp32_bridge/esp32_bridge.egg-info/top_level.txt
+[6.952s] reading manifest file '../../build/esp32_bridge/esp32_bridge.egg-info/SOURCES.txt'
+[6.953s] writing manifest file '../../build/esp32_bridge/esp32_bridge.egg-info/SOURCES.txt'
+[6.954s] running build
+[6.954s] running build_py
+[6.962s] running install
+[6.962s] running install_lib
+[6.964s] creating /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages/esp32_bridge
+[6.964s] copying /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/build/lib/esp32_bridge/__init__.py -> /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages/esp32_bridge
+[6.964s] copying /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/build/lib/esp32_bridge/bridge_node.py -> /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages/esp32_bridge
+[6.972s] byte-compiling /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages/esp32_bridge/__init__.py to __init__.cpython-311.pyc
+[6.972s] byte-compiling /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages/esp32_bridge/bridge_node.py to bridge_node.cpython-311.pyc
+[6.977s] running install_data
+[6.978s] running install_egg_info
+[6.986s] Copying ../../build/esp32_bridge/esp32_bridge.egg-info to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages/esp32_bridge-0.0.0-py3.11.egg-info
+[7.106s] running install_scripts
+[7.202s] Installing esp32_bridge script to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/esp32_bridge
+[7.203s] writing list of installed files to '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/install.log'
+[7.280s] Invoked command in '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/src/esp32_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/esp32_bridge/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp32_bridge build --build-base /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/build install --record /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/esp32_bridge/install.log --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO
+writing dependency_links to ../../../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt
+writing entry points to ../../../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt
+writing requirements to ../../../build/esp_miniBot/esp_miniBot.egg-info/requires.txt
+writing top-level names to ../../../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt
+reading manifest file '../../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+writing manifest file '../../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying esp_miniBot/music_stream.py -> /mnt/build/esp_miniBot/build/lib/esp_miniBot
+copying esp_miniBot/mp3_file_read.py -> /mnt/build/esp_miniBot/build/lib/esp_miniBot
+running install
+running install_lib
+copying /mnt/build/esp_miniBot/build/lib/esp_miniBot/music_stream.py -> /mnt/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot
+copying /mnt/build/esp_miniBot/build/lib/esp_miniBot/mp3_file_read.py -> /mnt/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot
+byte-compiling /mnt/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/music_stream.py to music_stream.cpython-312.pyc
+byte-compiling /mnt/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/mp3_file_read.py to mp3_file_read.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/mnt/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../../build/esp_miniBot/esp_miniBot.egg-info to /mnt/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing read_mp3 script to /mnt/install/esp_miniBot/lib/esp_miniBot
+Installing send_music script to /mnt/install/esp_miniBot/lib/esp_miniBot
+Installing send_speed script to /mnt/install/esp_miniBot/lib/esp_miniBot
+writing list of installed files to '/mnt/build/esp_miniBot/install.log'

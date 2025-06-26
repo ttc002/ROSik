@@ -1,0 +1,27 @@
+[1.654s] Invoking command in '/mnt/ros2_ws/src/esp_miniBot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/ros2_ws/build/esp_miniBot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_miniBot build --build-base /mnt/ros2_ws/build/esp_miniBot/build install --record /mnt/ros2_ws/build/esp_miniBot/install.log --single-version-externally-managed install_data
+[2.167s] running egg_info
+[2.208s] writing ../../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO
+[2.209s] writing dependency_links to ../../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt
+[2.209s] writing entry points to ../../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt
+[2.210s] writing requirements to ../../build/esp_miniBot/esp_miniBot.egg-info/requires.txt
+[2.210s] writing top-level names to ../../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt
+[2.291s] reading manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+[2.293s] writing manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+[2.293s] running build
+[2.294s] running build_py
+[2.294s] copying esp_miniBot/mp3_file_read.py -> /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot
+[2.295s] running install
+[2.307s] running install_lib
+[2.348s] copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/mp3_file_read.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot
+[2.349s] byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/mp3_file_read.py to mp3_file_read.cpython-312.pyc
+[2.354s] running install_data
+[2.355s] running install_egg_info
+[2.398s] removing '/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info' (and everything under it)
+[2.399s] Copying ../../build/esp_miniBot/esp_miniBot.egg-info to /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info
+[2.400s] running install_scripts
+[2.650s] Installing read_mp3 script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[2.651s] Installing send_music script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[2.651s] Installing send_speed script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[2.652s] Installing speaker script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[2.652s] writing list of installed files to '/mnt/ros2_ws/build/esp_miniBot/install.log'
+[2.692s] Invoked command in '/mnt/ros2_ws/src/esp_miniBot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/ros2_ws/build/esp_miniBot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_miniBot build --build-base /mnt/ros2_ws/build/esp_miniBot/build install --record /mnt/ros2_ws/build/esp_miniBot/install.log --single-version-externally-managed install_data

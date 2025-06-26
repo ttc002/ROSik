@@ -1,0 +1,4 @@
+[console_scripts]
+read_mp3 = esp_miniBot.mp3_file_read:main
+send_music = esp_miniBot.music_stream:main
+

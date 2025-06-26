@@ -1,0 +1,9 @@
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/uninstall.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/image_stream_uninstall.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/test.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/edit_cache.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/rebuild_cache.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/list_install_components.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/install.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/install/local.dir
+/home/petr/ros2_ws/build/image_stream/CMakeFiles/install/strip.dir

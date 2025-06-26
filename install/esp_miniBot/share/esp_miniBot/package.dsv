@@ -1,0 +1,6 @@
+source;share/esp_miniBot/hook/pythonpath.ps1
+source;share/esp_miniBot/hook/pythonpath.dsv
+source;share/esp_miniBot/hook/pythonpath.sh
+source;share/esp_miniBot/hook/ament_prefix_path.ps1
+source;share/esp_miniBot/hook/ament_prefix_path.dsv
+source;share/esp_miniBot/hook/ament_prefix_path.sh

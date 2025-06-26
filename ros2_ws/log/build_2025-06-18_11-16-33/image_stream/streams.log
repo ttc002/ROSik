@@ -1,0 +1,22 @@
+[3.077s] Invoking command in '/mnt/ros2_ws/src/image_stream': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/ros2_ws/build/image_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_stream build --build-base /mnt/ros2_ws/build/image_stream/build install --record /mnt/ros2_ws/build/image_stream/install.log --single-version-externally-managed install_data
+[3.621s] running egg_info
+[3.659s] writing ../../build/image_stream/image_stream.egg-info/PKG-INFO
+[3.820s] writing dependency_links to ../../build/image_stream/image_stream.egg-info/dependency_links.txt
+[3.839s] writing entry points to ../../build/image_stream/image_stream.egg-info/entry_points.txt
+[3.855s] writing requirements to ../../build/image_stream/image_stream.egg-info/requires.txt
+[3.877s] writing top-level names to ../../build/image_stream/image_stream.egg-info/top_level.txt
+[4.032s] reading manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[4.033s] writing manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[4.033s] running build
+[4.033s] running build_py
+[4.034s] running install
+[4.049s] running install_lib
+[4.103s] running install_data
+[4.104s] running install_egg_info
+[4.159s] removing '/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream-0.0.0-py3.12.egg-info' (and everything under it)
+[4.160s] Copying ../../build/image_stream/image_stream.egg-info to /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream-0.0.0-py3.12.egg-info
+[4.161s] running install_scripts
+[4.463s] Installing read_image script to /mnt/ros2_ws/install/image_stream/lib/image_stream
+[4.680s] Installing send_image script to /mnt/ros2_ws/install/image_stream/lib/image_stream
+[4.693s] writing list of installed files to '/mnt/ros2_ws/build/image_stream/install.log'
+[4.760s] Invoked command in '/mnt/ros2_ws/src/image_stream' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/ros2_ws/build/image_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_stream build --build-base /mnt/ros2_ws/build/image_stream/build install --record /mnt/ros2_ws/build/image_stream/install.log --single-version-externally-managed install_data

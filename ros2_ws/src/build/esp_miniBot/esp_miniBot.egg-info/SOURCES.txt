@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO
+../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt
+../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt
+../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt
+../build/esp_miniBot/esp_miniBot.egg-info/requires.txt
+../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt
+../build/esp_miniBot/esp_miniBot.egg-info/zip-safe
+esp_miniBot/__init__.py
+esp_miniBot/mp3_file_read.py
+esp_miniBot/music_stream.py
+resource/esp_miniBot
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

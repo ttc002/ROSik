@@ -1,0 +1,21 @@
+[3.300s] Invoking command in '/mnt/ros2_ws/src/esp32_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/ros2_ws/build/esp32_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp32_bridge build --build-base /mnt/ros2_ws/build/esp32_bridge/build install --record /mnt/ros2_ws/build/esp32_bridge/install.log --single-version-externally-managed install_data
+[3.837s] running egg_info
+[3.875s] writing ../../build/esp32_bridge/esp32_bridge.egg-info/PKG-INFO
+[3.876s] writing dependency_links to ../../build/esp32_bridge/esp32_bridge.egg-info/dependency_links.txt
+[3.882s] writing entry points to ../../build/esp32_bridge/esp32_bridge.egg-info/entry_points.txt
+[3.883s] writing requirements to ../../build/esp32_bridge/esp32_bridge.egg-info/requires.txt
+[3.884s] writing top-level names to ../../build/esp32_bridge/esp32_bridge.egg-info/top_level.txt
+[3.963s] reading manifest file '../../build/esp32_bridge/esp32_bridge.egg-info/SOURCES.txt'
+[3.965s] writing manifest file '../../build/esp32_bridge/esp32_bridge.egg-info/SOURCES.txt'
+[3.966s] running build
+[3.966s] running build_py
+[3.973s] running install
+[3.996s] running install_lib
+[4.039s] running install_data
+[4.040s] running install_egg_info
+[4.117s] removing '/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages/esp32_bridge-0.0.0-py3.12.egg-info' (and everything under it)
+[4.118s] Copying ../../build/esp32_bridge/esp32_bridge.egg-info to /mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages/esp32_bridge-0.0.0-py3.12.egg-info
+[4.121s] running install_scripts
+[4.356s] Installing esp32_bridge script to /mnt/ros2_ws/install/esp32_bridge/lib/esp32_bridge
+[4.358s] writing list of installed files to '/mnt/ros2_ws/build/esp32_bridge/install.log'
+[4.408s] Invoked command in '/mnt/ros2_ws/src/esp32_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/mnt/ros2_ws/build/esp32_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp32_bridge build --build-base /mnt/ros2_ws/build/esp32_bridge/build install --record /mnt/ros2_ws/build/esp32_bridge/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/petr/ros2_ws/build/image_stream/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

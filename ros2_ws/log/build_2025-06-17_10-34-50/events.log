@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.001017] (-) JobUnselected: {'identifier': 'esp32_bridge'}
+[0.001171] (-) JobUnselected: {'identifier': 'esp_miniBot'}
+[0.001261] (-) JobUnselected: {'identifier': 'web_joystick'}
+[0.001349] (image_stream) JobQueued: {'identifier': 'image_stream', 'dependencies': OrderedDict()}
+[0.001441] (image_stream) JobStarted: {'identifier': 'image_stream'}
+[0.099666] (-) TimerEvent: {}
+[0.200136] (-) TimerEvent: {}
+[0.300699] (-) TimerEvent: {}
+[0.401158] (-) TimerEvent: {}
+[0.501680] (-) TimerEvent: {}
+[0.602230] (-) TimerEvent: {}
+[0.702778] (-) TimerEvent: {}
+[0.803386] (-) TimerEvent: {}
+[0.903984] (-) TimerEvent: {}
+[1.004440] (-) TimerEvent: {}
+[1.105041] (-) TimerEvent: {}
+[1.205601] (-) TimerEvent: {}
+[1.306219] (-) TimerEvent: {}
+[1.406777] (-) TimerEvent: {}
+[1.507330] (-) TimerEvent: {}
+[1.607866] (-) TimerEvent: {}
+[1.706994] (image_stream) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/image_stream', 'build', '--build-base', '/mnt/ros2_ws/build/image_stream/build', 'install', '--record', '/mnt/ros2_ws/build/image_stream/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/ros2_ws/src/image_stream', 'env': {'USER': 'rx', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rx', 'OLDPWD': '/mnt', 'LESS': '-R', 'DESKTOP_SESSION': 'i3', 'ZSH': '/home/rx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/mnt/ros2_ws/install', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-:0-4148.sock', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rx', 'WINDOWID': '77594629', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'ALACRITTY_LOG': '/tmp/Alacritty-4148.log', 'TERM': 'xterm-256color', 'USERNAME': 'rx', 'XDG_SESSION_ID': '2', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/rx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/mnt/ros2_ws/install/web_joystick:/mnt/ros2_ws/install/image_stream:/mnt/ros2_ws/install/image_sender:/mnt/ros2_ws/install/esp_miniBot:/mnt/ros2_ws/install/esp32_bridge:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'i3', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ALACRITTY_WINDOW_ID': '77594629', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/mnt/ros2_ws/build/image_stream', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/home/rx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/ros2_ws/build/image_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages:/mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages:/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages:/mnt/ros2_ws/install/image_sender/lib/python3.11/site-packages:/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages:/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'I3SOCK': '/run/user/1000/i3/ipc-socket.2173', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/mnt/ros2_ws/install/image_stream:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.714112] (-) TimerEvent: {}
+[1.815138] (-) TimerEvent: {}
+[1.915732] (-) TimerEvent: {}
+[2.016336] (-) TimerEvent: {}
+[2.116860] (-) TimerEvent: {}
+[2.183020] (image_stream) StdoutLine: {'line': b'running egg_info\n'}
+[2.217068] (-) TimerEvent: {}
+[2.218300] (image_stream) StdoutLine: {'line': b'writing ../../build/image_stream/image_stream.egg-info/PKG-INFO\n'}
+[2.219043] (image_stream) StdoutLine: {'line': b'writing dependency_links to ../../build/image_stream/image_stream.egg-info/dependency_links.txt\n'}
+[2.219660] (image_stream) StdoutLine: {'line': b'writing entry points to ../../build/image_stream/image_stream.egg-info/entry_points.txt\n'}
+[2.220076] (image_stream) StdoutLine: {'line': b'writing requirements to ../../build/image_stream/image_stream.egg-info/requires.txt\n'}
+[2.220506] (image_stream) StdoutLine: {'line': b'writing top-level names to ../../build/image_stream/image_stream.egg-info/top_level.txt\n'}
+[2.291832] (image_stream) StdoutLine: {'line': b"reading manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'\n"}
+[2.292884] (image_stream) StdoutLine: {'line': b"writing manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'\n"}
+[2.293579] (image_stream) StdoutLine: {'line': b'running build\n'}
+[2.294063] (image_stream) StdoutLine: {'line': b'running build_py\n'}
+[2.294686] (image_stream) StdoutLine: {'line': b'copying image_stream/image_to_socket_node.py -> /mnt/ros2_ws/build/image_stream/build/lib/image_stream\n'}
+[2.295129] (image_stream) StdoutLine: {'line': b'running install\n'}
+[2.313811] (image_stream) StdoutLine: {'line': b'running install_lib\n'}
+[2.317275] (-) TimerEvent: {}
+[2.349813] (image_stream) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/image_stream/build/lib/image_stream/image_to_socket_node.py -> /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream\n'}
+[2.350517] (image_stream) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream/image_to_socket_node.py to image_to_socket_node.cpython-312.pyc\n'}
+[2.352071] (image_stream) StdoutLine: {'line': b'running install_data\n'}
+[2.352638] (image_stream) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.417499] (-) TimerEvent: {}
+[2.421215] (image_stream) StdoutLine: {'line': b"removing '/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.421869] (image_stream) StdoutLine: {'line': b'Copying ../../build/image_stream/image_stream.egg-info to /mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages/image_stream-0.0.0-py3.12.egg-info\n'}
+[2.422890] (image_stream) StdoutLine: {'line': b'running install_scripts\n'}
+[2.517723] (-) TimerEvent: {}
+[2.618337] (-) TimerEvent: {}
+[2.638835] (image_stream) StdoutLine: {'line': b'Installing read_image script to /mnt/ros2_ws/install/image_stream/lib/image_stream\n'}
+[2.639420] (image_stream) StdoutLine: {'line': b'Installing send_image script to /mnt/ros2_ws/install/image_stream/lib/image_stream\n'}
+[2.639953] (image_stream) StdoutLine: {'line': b"writing list of installed files to '/mnt/ros2_ws/build/image_stream/install.log'\n"}
+[2.678085] (image_stream) CommandEnded: {'returncode': 0}
+[2.718553] (-) TimerEvent: {}
+[2.819093] (-) TimerEvent: {}
+[2.919599] (-) TimerEvent: {}
+[2.981586] (image_stream) JobEnded: {'identifier': 'image_stream', 'rc': 0}
+[2.984455] (-) EventReactorShutdown: {}

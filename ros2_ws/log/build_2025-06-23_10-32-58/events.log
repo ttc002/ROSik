@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.001066] (esp32_bridge) JobQueued: {'identifier': 'esp32_bridge', 'dependencies': OrderedDict()}
+[0.001426] (esp_miniBot) JobQueued: {'identifier': 'esp_miniBot', 'dependencies': OrderedDict()}
+[0.001576] (image_stream) JobQueued: {'identifier': 'image_stream', 'dependencies': OrderedDict()}
+[0.001657] (web_joystick) JobQueued: {'identifier': 'web_joystick', 'dependencies': OrderedDict()}
+[0.001735] (esp32_bridge) JobStarted: {'identifier': 'esp32_bridge'}
+[0.015294] (esp_miniBot) JobStarted: {'identifier': 'esp_miniBot'}
+[0.025152] (image_stream) JobStarted: {'identifier': 'image_stream'}
+[0.035065] (web_joystick) JobStarted: {'identifier': 'web_joystick'}
+[0.099718] (-) TimerEvent: {}
+[0.200367] (-) TimerEvent: {}
+[0.301053] (-) TimerEvent: {}
+[0.401727] (-) TimerEvent: {}
+[0.502252] (-) TimerEvent: {}
+[0.602569] (-) TimerEvent: {}
+[0.702849] (-) TimerEvent: {}
+[0.803246] (-) TimerEvent: {}
+[0.903733] (-) TimerEvent: {}
+[0.991512] (image_stream) JobEnded: {'identifier': 'image_stream', 'rc': 0}
+[0.995064] (esp32_bridge) JobEnded: {'identifier': 'esp32_bridge', 'rc': 'SIGINT'}
+[0.997236] (esp_miniBot) JobEnded: {'identifier': 'esp_miniBot', 'rc': 'SIGINT'}
+[0.998324] (web_joystick) JobEnded: {'identifier': 'web_joystick', 'rc': 'SIGINT'}
+[1.003854] (-) TimerEvent: {}
+[1.008086] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+[2.699s] Invoking command in '/home/petr/ros2_ws/src/image_stream': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/petr/ros2_ws/build/image_stream/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/petr/ros2_ws/install/image_stream/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_stream build --build-base /home/petr/ros2_ws/build/image_stream/build install --record /home/petr/ros2_ws/build/image_stream/install.log --single-version-externally-managed install_data
+[3.738s] running egg_info
+[3.739s] creating ../../build/image_stream/image_stream.egg-info
+[3.739s] writing ../../build/image_stream/image_stream.egg-info/PKG-INFO
+[3.740s] writing dependency_links to ../../build/image_stream/image_stream.egg-info/dependency_links.txt
+[3.740s] writing entry points to ../../build/image_stream/image_stream.egg-info/entry_points.txt
+[3.741s] writing requirements to ../../build/image_stream/image_stream.egg-info/requires.txt
+[3.742s] writing top-level names to ../../build/image_stream/image_stream.egg-info/top_level.txt
+[3.742s] writing manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[3.745s] reading manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[3.746s] writing manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[3.746s] running build
+[3.746s] running build_py
+[3.747s] creating /home/petr/ros2_ws/build/image_stream/build
+[3.747s] creating /home/petr/ros2_ws/build/image_stream/build/lib
+[3.747s] creating /home/petr/ros2_ws/build/image_stream/build/lib/image_stream
+[3.747s] copying image_stream/__init__.py -> /home/petr/ros2_ws/build/image_stream/build/lib/image_stream
+[3.747s] running install
+[3.747s] running install_lib
+[3.749s] creating /home/petr/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream
+[3.749s] copying /home/petr/ros2_ws/build/image_stream/build/lib/image_stream/__init__.py -> /home/petr/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream
+[3.757s] byte-compiling /home/petr/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/__init__.py to __init__.cpython-311.pyc
+[3.757s] running install_data
+[3.757s] copying resource/image_stream -> /home/petr/ros2_ws/install/image_stream/share/ament_index/resource_index/packages
+[3.758s] copying package.xml -> /home/petr/ros2_ws/install/image_stream/share/image_stream
+[3.758s] running install_egg_info
+[3.767s] Copying ../../build/image_stream/image_stream.egg-info to /home/petr/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info
+[3.770s] running install_scripts
+[3.866s] writing list of installed files to '/home/petr/ros2_ws/build/image_stream/install.log'
+[3.934s] Invoked command in '/home/petr/ros2_ws/src/image_stream' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/petr/ros2_ws/build/image_stream/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/petr/ros2_ws/install/image_stream/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_stream build --build-base /home/petr/ros2_ws/build/image_stream/build install --record /home/petr/ros2_ws/build/image_stream/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[4.824s] Invoking command in '/home/petr/ros2_ws/src/web_joystick': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/petr/ros2_ws/build/web_joystick/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/web_joystick build --build-base /home/petr/ros2_ws/build/web_joystick/build install --record /home/petr/ros2_ws/build/web_joystick/install.log --single-version-externally-managed install_data
+[5.846s] running egg_info
+[5.847s] creating ../../build/web_joystick/web_joystick.egg-info
+[5.847s] writing ../../build/web_joystick/web_joystick.egg-info/PKG-INFO
+[5.848s] writing dependency_links to ../../build/web_joystick/web_joystick.egg-info/dependency_links.txt
+[5.849s] writing entry points to ../../build/web_joystick/web_joystick.egg-info/entry_points.txt
+[5.849s] writing requirements to ../../build/web_joystick/web_joystick.egg-info/requires.txt
+[5.849s] writing top-level names to ../../build/web_joystick/web_joystick.egg-info/top_level.txt
+[5.850s] writing manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'
+[5.853s] reading manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'
+[5.854s] writing manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'
+[5.854s] running build
+[5.854s] running build_py
+[5.854s] creating /home/petr/ros2_ws/build/web_joystick/build
+[5.854s] creating /home/petr/ros2_ws/build/web_joystick/build/lib
+[5.855s] creating /home/petr/ros2_ws/build/web_joystick/build/lib/web_joystick
+[5.855s] copying web_joystick/__init__.py -> /home/petr/ros2_ws/build/web_joystick/build/lib/web_joystick
+[5.855s] copying web_joystick/web_joystick.py -> /home/petr/ros2_ws/build/web_joystick/build/lib/web_joystick
+[5.856s] running install
+[5.856s] running install_lib
+[5.858s] creating /home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick
+[5.858s] copying /home/petr/ros2_ws/build/web_joystick/build/lib/web_joystick/__init__.py -> /home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick
+[5.858s] copying /home/petr/ros2_ws/build/web_joystick/build/lib/web_joystick/web_joystick.py -> /home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick
+[5.865s] byte-compiling /home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick/__init__.py to __init__.cpython-311.pyc
+[5.865s] byte-compiling /home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick/web_joystick.py to web_joystick.cpython-311.pyc
+[5.870s] running install_data
+[5.870s] creating /home/petr/ros2_ws/install/web_joystick/share/ament_index
+[5.870s] creating /home/petr/ros2_ws/install/web_joystick/share/ament_index/resource_index
+[5.871s] creating /home/petr/ros2_ws/install/web_joystick/share/ament_index/resource_index/packages
+[5.871s] copying resource/web_joystick -> /home/petr/ros2_ws/install/web_joystick/share/ament_index/resource_index/packages
+[5.871s] copying package.xml -> /home/petr/ros2_ws/install/web_joystick/share/web_joystick
+[5.871s] running install_egg_info
+[5.879s] Copying ../../build/web_joystick/web_joystick.egg-info to /home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick-0.0.0-py3.11.egg-info
+[5.882s] running install_scripts
+[5.975s] Installing web script to /home/petr/ros2_ws/install/web_joystick/lib/web_joystick
+[5.976s] writing list of installed files to '/home/petr/ros2_ws/build/web_joystick/install.log'
+[6.059s] Invoked command in '/home/petr/ros2_ws/src/web_joystick' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/petr/ros2_ws/build/web_joystick/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/petr/ros2_ws/install/web_joystick/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/web_joystick build --build-base /home/petr/ros2_ws/build/web_joystick/build install --record /home/petr/ros2_ws/build/web_joystick/install.log --single-version-externally-managed install_data

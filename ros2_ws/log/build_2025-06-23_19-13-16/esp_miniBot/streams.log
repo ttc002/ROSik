@@ -1,0 +1,32 @@
+[6.332s] Invoking command in '/mnt/ros2_ws/src/esp_miniBot': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/mnt/ros2_ws/build/esp_miniBot/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_miniBot build --build-base /mnt/ros2_ws/build/esp_miniBot/build install --record /mnt/ros2_ws/build/esp_miniBot/install.log --single-version-externally-managed install_data
+[7.285s] running egg_info
+[7.286s] writing ../../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO
+[7.288s] writing dependency_links to ../../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt
+[7.291s] writing entry points to ../../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt
+[7.301s] writing requirements to ../../build/esp_miniBot/esp_miniBot.egg-info/requires.txt
+[7.311s] writing top-level names to ../../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt
+[7.328s] reading manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+[7.336s] writing manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'
+[7.356s] running build
+[7.356s] running build_py
+[7.382s] running install
+[7.383s] running install_lib
+[7.391s] copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/music_stream.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot
+[7.394s] copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/espSpeedStreamer.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot
+[7.395s] copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/mp3_file_read.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot
+[7.396s] copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/virtual_speaker.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot
+[7.405s] byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot/music_stream.py to music_stream.cpython-311.pyc
+[7.407s] byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot/espSpeedStreamer.py to espSpeedStreamer.cpython-311.pyc
+[7.407s] byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot/mp3_file_read.py to mp3_file_read.cpython-311.pyc
+[7.412s] byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot/virtual_speaker.py to virtual_speaker.cpython-311.pyc
+[7.414s] running install_data
+[7.422s] running install_egg_info
+[7.430s] removing '/mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot-0.0.0-py3.11.egg-info' (and everything under it)
+[7.430s] Copying ../../build/esp_miniBot/esp_miniBot.egg-info to /mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages/esp_miniBot-0.0.0-py3.11.egg-info
+[7.434s] running install_scripts
+[7.520s] Installing read_mp3 script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.536s] Installing send_music script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.541s] Installing send_speed script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.545s] Installing speaker script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot
+[7.553s] writing list of installed files to '/mnt/ros2_ws/build/esp_miniBot/install.log'
+[7.761s] Invoked command in '/mnt/ros2_ws/src/esp_miniBot' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/mnt/ros2_ws/build/esp_miniBot/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp_miniBot/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_miniBot build --build-base /mnt/ros2_ws/build/esp_miniBot/build install --record /mnt/ros2_ws/build/esp_miniBot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[4.852s] Invoking command in '/home/petr/ros2_ws/src/image_sender': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/petr/ros2_ws/build/image_sender/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/petr/ros2_ws/install/image_sender/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_sender build --build-base /home/petr/ros2_ws/build/image_sender/build install --record /home/petr/ros2_ws/build/image_sender/install.log --single-version-externally-managed install_data
+[5.915s] running egg_info
+[5.915s] writing ../../build/image_sender/image_sender.egg-info/PKG-INFO
+[5.916s] writing dependency_links to ../../build/image_sender/image_sender.egg-info/dependency_links.txt
+[5.917s] writing entry points to ../../build/image_sender/image_sender.egg-info/entry_points.txt
+[5.917s] writing requirements to ../../build/image_sender/image_sender.egg-info/requires.txt
+[5.918s] writing top-level names to ../../build/image_sender/image_sender.egg-info/top_level.txt
+[5.923s] reading manifest file '../../build/image_sender/image_sender.egg-info/SOURCES.txt'
+[5.924s] writing manifest file '../../build/image_sender/image_sender.egg-info/SOURCES.txt'
+[5.925s] running build
+[5.925s] running build_py
+[5.926s] running install
+[5.926s] running install_lib
+[5.934s] running install_data
+[5.935s] running install_egg_info
+[5.943s] removing '/home/petr/ros2_ws/install/image_sender/lib/python3.11/site-packages/image_sender-0.0.0-py3.11.egg-info' (and everything under it)
+[5.943s] Copying ../../build/image_sender/image_sender.egg-info to /home/petr/ros2_ws/install/image_sender/lib/python3.11/site-packages/image_sender-0.0.0-py3.11.egg-info
+[5.948s] running install_scripts
+[6.042s] Installing read_jpg script to /home/petr/ros2_ws/install/image_sender/lib/image_sender
+[6.042s] Installing send_image script to /home/petr/ros2_ws/install/image_sender/lib/image_sender
+[6.043s] writing list of installed files to '/home/petr/ros2_ws/build/image_sender/install.log'
+[6.155s] Invoked command in '/home/petr/ros2_ws/src/image_sender' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/petr/ros2_ws/build/image_sender/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/petr/ros2_ws/install/image_sender/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_sender build --build-base /home/petr/ros2_ws/build/image_sender/build install --record /home/petr/ros2_ws/build/image_sender/install.log --single-version-externally-managed install_data

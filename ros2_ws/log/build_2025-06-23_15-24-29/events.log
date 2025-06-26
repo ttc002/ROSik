@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000785] (-) JobUnselected: {'identifier': 'esp32_bridge'}
+[0.000839] (-) JobUnselected: {'identifier': 'image_stream'}
+[0.000876] (-) JobUnselected: {'identifier': 'web_joystick'}
+[0.000908] (esp_miniBot) JobQueued: {'identifier': 'esp_miniBot', 'dependencies': OrderedDict()}
+[0.000942] (esp_miniBot) JobStarted: {'identifier': 'esp_miniBot'}
+[0.099750] (-) TimerEvent: {}
+[0.200220] (-) TimerEvent: {}
+[0.300549] (-) TimerEvent: {}
+[0.401027] (-) TimerEvent: {}
+[0.501627] (-) TimerEvent: {}
+[0.602136] (-) TimerEvent: {}
+[0.702611] (-) TimerEvent: {}
+[0.802975] (-) TimerEvent: {}
+[0.903266] (-) TimerEvent: {}
+[1.003570] (-) TimerEvent: {}
+[1.103955] (-) TimerEvent: {}
+[1.204352] (-) TimerEvent: {}
+[1.304673] (-) TimerEvent: {}
+[1.405149] (-) TimerEvent: {}
+[1.505423] (-) TimerEvent: {}
+[1.605718] (-) TimerEvent: {}
+[1.706009] (-) TimerEvent: {}
+[1.793906] (esp_miniBot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/esp_miniBot', 'build', '--build-base', '/mnt/ros2_ws/build/esp_miniBot/build', 'install', '--record', '/mnt/ros2_ws/build/esp_miniBot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/ros2_ws/src/esp_miniBot', 'env': {'USER': 'rx', 'XDG_SEAT': 'seat0', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rx', 'OLDPWD': '/mnt', 'LESS': '-R', 'DESKTOP_SESSION': 'i3', 'ZSH': '/home/rx/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/mnt/ros2_ws/install:/mnt/install', 'ALACRITTY_SOCKET': '/run/user/1000/Alacritty-:0-3188.sock', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'rx', 'WINDOWID': '37748741', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'ALACRITTY_LOG': '/tmp/Alacritty-3188.log', 'TERM': 'xterm-256color', 'USERNAME': 'rx', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/rx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'i3', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'XDG_SESSION_DESKTOP': 'i3', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gnupg/S.gpg-agent.ssh', 'AMENT_PREFIX_PATH': '/mnt/ros2_ws/install/web_joystick:/mnt/ros2_ws/install/image_stream:/mnt/ros2_ws/install/image_sender:/mnt/ros2_ws/install/esp_miniBot:/mnt/ros2_ws/install/esp32_bridge:/mnt/install/esp_miniBot:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'i3', 'QT_ACCESSIBILITY': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ALACRITTY_WINDOW_ID': '37748741', 'QT_IM_MODULE': 'ibus', 'XDG_VTNR': '2', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/mnt/ros2_ws/build/esp_miniBot', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-i3:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/i3:/usr/share/gnome:/home/rx/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/ros2_ws/build/esp_miniBot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages:/mnt/ros2_ws/install/web_joystick/lib/python3.12/site-packages:/mnt/ros2_ws/install/image_stream/lib/python3.12/site-packages:/mnt/ros2_ws/install/image_sender/lib/python3.11/site-packages:/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages:/mnt/ros2_ws/install/esp32_bridge/lib/python3.12/site-packages:/mnt/install/esp_miniBot/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'I3SOCK': '/run/user/1000/i3/ipc-socket.2204', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/mnt/ros2_ws/install/image_stream:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.806189] (-) TimerEvent: {}
+[1.906596] (-) TimerEvent: {}
+[2.007346] (-) TimerEvent: {}
+[2.107833] (-) TimerEvent: {}
+[2.208200] (-) TimerEvent: {}
+[2.308522] (-) TimerEvent: {}
+[2.341620] (esp_miniBot) StdoutLine: {'line': b'running egg_info\n'}
+[2.385417] (esp_miniBot) StdoutLine: {'line': b'writing ../../build/esp_miniBot/esp_miniBot.egg-info/PKG-INFO\n'}
+[2.385957] (esp_miniBot) StdoutLine: {'line': b'writing dependency_links to ../../build/esp_miniBot/esp_miniBot.egg-info/dependency_links.txt\n'}
+[2.386330] (esp_miniBot) StdoutLine: {'line': b'writing entry points to ../../build/esp_miniBot/esp_miniBot.egg-info/entry_points.txt\n'}
+[2.386563] (esp_miniBot) StdoutLine: {'line': b'writing requirements to ../../build/esp_miniBot/esp_miniBot.egg-info/requires.txt\n'}
+[2.386748] (esp_miniBot) StdoutLine: {'line': b'writing top-level names to ../../build/esp_miniBot/esp_miniBot.egg-info/top_level.txt\n'}
+[2.408609] (-) TimerEvent: {}
+[2.482523] (esp_miniBot) StdoutLine: {'line': b"reading manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'\n"}
+[2.483853] (esp_miniBot) StdoutLine: {'line': b"writing manifest file '../../build/esp_miniBot/esp_miniBot.egg-info/SOURCES.txt'\n"}
+[2.484170] (esp_miniBot) StdoutLine: {'line': b'running build\n'}
+[2.484893] (esp_miniBot) StdoutLine: {'line': b'running build_py\n'}
+[2.485168] (esp_miniBot) StdoutLine: {'line': b'copying esp_miniBot/espSpeedStreamer.py -> /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot\n'}
+[2.485339] (esp_miniBot) StdoutLine: {'line': b'copying esp_miniBot/virtual_speaker.py -> /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot\n'}
+[2.485617] (esp_miniBot) StdoutLine: {'line': b'running install\n'}
+[2.499286] (esp_miniBot) StdoutLine: {'line': b'running install_lib\n'}
+[2.508703] (-) TimerEvent: {}
+[2.545554] (esp_miniBot) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/espSpeedStreamer.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[2.545833] (esp_miniBot) StdoutLine: {'line': b'copying /mnt/ros2_ws/build/esp_miniBot/build/lib/esp_miniBot/virtual_speaker.py -> /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot\n'}
+[2.546832] (esp_miniBot) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/espSpeedStreamer.py to espSpeedStreamer.cpython-312.pyc\n'}
+[2.547110] (esp_miniBot) StdoutLine: {'line': b'byte-compiling /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot/virtual_speaker.py to virtual_speaker.cpython-312.pyc\n'}
+[2.548593] (esp_miniBot) StdoutLine: {'line': b'running install_data\n'}
+[2.548938] (esp_miniBot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.595384] (esp_miniBot) StdoutLine: {'line': b"removing '/mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.608838] (-) TimerEvent: {}
+[2.611623] (esp_miniBot) StdoutLine: {'line': b'Copying ../../build/esp_miniBot/esp_miniBot.egg-info to /mnt/ros2_ws/install/esp_miniBot/lib/python3.12/site-packages/esp_miniBot-0.0.0-py3.12.egg-info\n'}
+[2.613112] (esp_miniBot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.708942] (-) TimerEvent: {}
+[2.809247] (-) TimerEvent: {}
+[2.884506] (esp_miniBot) StdoutLine: {'line': b'Installing read_mp3 script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[2.884940] (esp_miniBot) StdoutLine: {'line': b'Installing send_music script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[2.885174] (esp_miniBot) StdoutLine: {'line': b'Installing send_speed script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[2.885473] (esp_miniBot) StdoutLine: {'line': b'Installing speaker script to /mnt/ros2_ws/install/esp_miniBot/lib/esp_miniBot\n'}
+[2.885828] (esp_miniBot) StdoutLine: {'line': b"writing list of installed files to '/mnt/ros2_ws/build/esp_miniBot/install.log'\n"}
+[2.909370] (-) TimerEvent: {}
+[2.933088] (esp_miniBot) CommandEnded: {'returncode': 0}
+[3.009480] (-) TimerEvent: {}
+[3.109841] (-) TimerEvent: {}
+[3.210498] (-) TimerEvent: {}
+[3.223756] (esp_miniBot) JobEnded: {'identifier': 'esp_miniBot', 'rc': 0}
+[3.236655] (-) EventReactorShutdown: {}

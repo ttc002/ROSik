@@ -1,0 +1,25 @@
+[2.526s] Invoking command in '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/src/image_stream': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_stream build --build-base /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/build install --record /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/install.log --single-version-externally-managed install_data
+[3.545s] running egg_info
+[3.546s] writing ../../build/image_stream/image_stream.egg-info/PKG-INFO
+[3.546s] writing dependency_links to ../../build/image_stream/image_stream.egg-info/dependency_links.txt
+[3.547s] writing entry points to ../../build/image_stream/image_stream.egg-info/entry_points.txt
+[3.547s] writing requirements to ../../build/image_stream/image_stream.egg-info/requires.txt
+[3.547s] writing top-level names to ../../build/image_stream/image_stream.egg-info/top_level.txt
+[3.551s] reading manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[3.552s] writing manifest file '../../build/image_stream/image_stream.egg-info/SOURCES.txt'
+[3.552s] running build
+[3.552s] running build_py
+[3.553s] copying image_stream/image_to_socket_node.py -> /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/build/lib/image_stream
+[3.553s] running install
+[3.553s] running install_lib
+[3.555s] copying /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/build/lib/image_stream/image_to_socket_node.py -> /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream
+[3.561s] byte-compiling /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/image_to_socket_node.py to image_to_socket_node.cpython-311.pyc
+[3.562s] running install_data
+[3.563s] running install_egg_info
+[3.570s] removing '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info' (and everything under it)
+[3.571s] Copying ../../build/image_stream/image_stream.egg-info to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info
+[3.573s] running install_scripts
+[3.662s] Installing read_image script to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/image_stream
+[3.662s] Installing send_image script to /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/image_stream
+[3.663s] writing list of installed files to '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/install.log'
+[3.730s] Invoked command in '/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/src/image_stream' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/install/image_stream/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/image_stream build --build-base /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/build install --record /run/media/petr/5328350c-c733-4a2b-be90-55e5afb96d13/ros2_ws/build/image_stream/install.log --single-version-externally-managed install_data

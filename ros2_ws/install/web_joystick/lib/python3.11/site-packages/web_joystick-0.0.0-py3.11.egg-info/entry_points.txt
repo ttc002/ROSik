@@ -1,0 +1,3 @@
+[console_scripts]
+web = web_joystick.web_joystick:main
+

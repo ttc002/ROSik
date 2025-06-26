@@ -1,0 +1,4 @@
+[console_scripts]
+read_jpg = image_sender.image_publisher:main
+send_image = image_sender.image_sender:main
+

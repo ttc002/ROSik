@@ -1,0 +1,21 @@
+[6.208s] Invoking command in '/mnt/ros2_ws/src/web_joystick': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/mnt/ros2_ws/build/web_joystick/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/web_joystick/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/web_joystick build --build-base /mnt/ros2_ws/build/web_joystick/build install --record /mnt/ros2_ws/build/web_joystick/install.log --single-version-externally-managed install_data
+[7.174s] running egg_info
+[7.176s] writing ../../build/web_joystick/web_joystick.egg-info/PKG-INFO
+[7.189s] writing dependency_links to ../../build/web_joystick/web_joystick.egg-info/dependency_links.txt
+[7.201s] writing entry points to ../../build/web_joystick/web_joystick.egg-info/entry_points.txt
+[7.217s] writing requirements to ../../build/web_joystick/web_joystick.egg-info/requires.txt
+[7.218s] writing top-level names to ../../build/web_joystick/web_joystick.egg-info/top_level.txt
+[7.237s] reading manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'
+[7.241s] writing manifest file '../../build/web_joystick/web_joystick.egg-info/SOURCES.txt'
+[7.257s] running build
+[7.257s] running build_py
+[7.274s] running install
+[7.274s] running install_lib
+[7.283s] running install_data
+[7.290s] running install_egg_info
+[7.298s] removing '/mnt/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick-0.0.0-py3.11.egg-info' (and everything under it)
+[7.298s] Copying ../../build/web_joystick/web_joystick.egg-info to /mnt/ros2_ws/install/web_joystick/lib/python3.11/site-packages/web_joystick-0.0.0-py3.11.egg-info
+[7.303s] running install_scripts
+[7.391s] Installing web script to /mnt/ros2_ws/install/web_joystick/lib/web_joystick
+[7.406s] writing list of installed files to '/mnt/ros2_ws/build/web_joystick/install.log'
+[7.594s] Invoked command in '/mnt/ros2_ws/src/web_joystick' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/mnt/ros2_ws/build/web_joystick/prefix_override:/home/petr/.local/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros2_ws/install/web_joystick/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/web_joystick build --build-base /mnt/ros2_ws/build/web_joystick/build install --record /mnt/ros2_ws/build/web_joystick/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/image_to_socket_node.py
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/image_publisher_node.py
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/__init__.py
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/__pycache__/image_to_socket_node.cpython-311.pyc
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/__pycache__/image_publisher_node.cpython-311.pyc
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream/__pycache__/__init__.cpython-311.pyc
+/mnt/ros2_ws/install/image_stream/share/ament_index/resource_index/packages/image_stream
+/mnt/ros2_ws/install/image_stream/share/image_stream/package.xml
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/requires.txt
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/top_level.txt
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/entry_points.txt
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/PKG-INFO
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/SOURCES.txt
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/zip-safe
+/mnt/ros2_ws/install/image_stream/lib/python3.11/site-packages/image_stream-0.0.0-py3.11.egg-info/dependency_links.txt
+/mnt/ros2_ws/install/image_stream/lib/image_stream/read_image
+/mnt/ros2_ws/install/image_stream/lib/image_stream/send_image
